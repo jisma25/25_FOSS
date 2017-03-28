@@ -1,0 +1,9 @@
+#!/usr/bin/perl
+print "the sum of two nos\n";
+print "enter the first no\n";
+$num1=<STDIN>;
+print "enter the second no\n";
+$num2=<STDIN>;
+$sum=$num1+$num2;
+print "sum is $sum";
+

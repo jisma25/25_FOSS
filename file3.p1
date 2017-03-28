@@ -1,0 +1,14 @@
+#!/usr/bin/perl
+print "the sum of an array\n";
+print "enter the limit\n";
+$limit=<STDIN>;
+for($i=0;$i<$limit;$i++)
+{
+ print "enter the element\n";
+ $set[$i]=<STDIN>;
+}
+for($i=0;$i<$limit;$i++)
+{
+ $sum=$sum+@set[$i];
+}
+print "the sum is $sum\n";

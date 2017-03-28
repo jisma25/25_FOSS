@@ -1,0 +1,18 @@
+#!/usr/bin/perl
+print "enter the three nos\n";
+$a=<STDIN>;
+$b=<STDIN>;
+$c=<STDIN>;
+if (($a>$b)&&($a>$c))
+{
+ print " $a is largest\n";
+}
+if (($b>$a)&&($b>$c))
+{
+ print " $b is largest\n";
+}
+if (($c>$a)&&($c>$b))
+{
+ print " $c is largest\n";
+}
+

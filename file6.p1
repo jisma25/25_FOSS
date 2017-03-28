@@ -1,0 +1,19 @@
+#!/usr/bin/perl
+print "enter the limit\n";
+$li=<STDIN>;
+print "the array is \n";
+for($i=0;$i<$li;$i++)
+{
+ print "enter the number";
+ $arr[$i]=<STDIN>;
+}
+print "enter the element to be searched\n";
+$ele=<STDIN>;
+for($i=0;$i<$li;$i++)
+{
+ if($arr[$i]==$ele)
+ {
+	print " element is found at $i\n";
+	
+ }
+}	
